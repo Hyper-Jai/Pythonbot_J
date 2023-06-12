@@ -6,7 +6,7 @@ import time
 
 @bot.on(events.NewMessage(incoming=True, pattern="/game"))
 async def game(event):
-  await event.reply('Dice Game\n\nGame info:\nTwo dices 🎲 were rolled randomly. You have to choose your favourite number or we can say a random number in a range of 1-6. If the number matches with any of the output of dice then congratulations you won.\n\nChoose your favourite number by typing\nFav.num = "your number"\n\nFor example:\nFav.num = 5')
+  await event.reply('Dice Game🎲\n\nGame info:\nTwo dices 🎲 were rolled randomly. You have to choose your favourite number or we can say a random number in a range of 1-6. If the number matches with any of the output of dice then congratulations you won.\n\nChoose your favourite number by typing\nFav.num = "your number"\n\nFor example:\nFav.num = 5')
 
 
 @bot.on(events.NewMessage(incoming=True, pattern="Fav.num = ?(.*)"))

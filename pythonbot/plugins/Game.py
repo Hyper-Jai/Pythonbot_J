@@ -39,4 +39,4 @@ async def game(event):
     
     
   else:
-   await event.reply("Number out of range or it is not a number type a valid number in a range of 1-6. Only a single number after Fav.num = ")
+   await event.reply("Number out of range or it is not a number. Type a valid number in a range of 1-6. Only a single number after Fav.num = ")

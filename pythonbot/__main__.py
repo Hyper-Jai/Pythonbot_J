@@ -3,6 +3,7 @@ from pathlib import Path
 from pythonbot.utils import load_plug
 import logging
 from . import bot 
+from sys import argv
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 

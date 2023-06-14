@@ -18,7 +18,7 @@ from yt_dlp.utils import (
     XAttrMetadataError,
 )
 
-@bot.on(events.NewMessage(incoming=True, pattern="yt ?(.*)"))
+@bot.on(events.NewMessage(incoming=True, pattern="/yt ?(.*)"))
 
 
 async def download_video(event):

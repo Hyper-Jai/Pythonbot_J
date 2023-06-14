@@ -48,5 +48,5 @@ async def chatgpt(event):
 
 @bot.on(events.NewMessage(incoming=True,pattern="/help"))
 async def help(event):
-  await event.reply("""yta 'link of the video' : for downloading song from the youtube\n\nytv 'link of the video' : for downloading video from the youtube\n\n/tr hi/en(in which language you want to translate) 'sentence'\n
+  await event.reply("""/yta 'link of the video' : for downloading song from the youtube\n\n/ytv 'link of the video' : for downloading video from the youtube\n\n/tr hi/en(in which language you want to translate) 'sentence'\n
    /tr hi how are you""")
